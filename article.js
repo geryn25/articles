@@ -130,4 +130,16 @@ router.post("/", function (req, res) {
     );
   });
 
+  router.get("/:id/comment/", function (req, res) {
+    db.article.findById(req.params.id, function (err, result) {
+      if (err) {
+        res.status(400).send("error insert");
+      } else if (result) {
+        res.status(200).send(result.comment);
+      } else {
+          res.status(404).send('no result')
+      }
+    });
+  });
+
 module.exports = router
