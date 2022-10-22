@@ -1,21 +1,24 @@
 # articles
 
-installation 
+##installation 
 
 ```bash
 $ npm install
 ```
 
-for server
+3#for server
 
 ```
 $ npm install -g nodemon
 ```
 
 
-running
+##running
 
 ```
 $ nodemon index
 ```
+
+##for ENV file
+inside .env file there must be **MONGODB_URL** propery
 
