@@ -1,5 +1,9 @@
 # articles
 
+## POSTMAN API LINK
+
+[Postman Link](https://www.getpostman.com/collections/44e00c2d8f14bd2f8791)
+
 ## installation 
 
 ```bash
